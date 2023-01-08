@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Julius+Sans+One&display=swap');
+
+html {
+    background: rgb(3,60,83);
+    background: linear-gradient(0deg, rgba(3,60,83,1) 0%, rgba(207,153,142,0.6003443613773635) 73%);
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    opacity: 90%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 12%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex: 1;
+    margin-left: 45%;
+    margin-bottom: 2rem;
+    text-align: right;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 30px;
+}
+
+a:hover {
+    background:rgb(255, 255, 255);
+    border: 0;
+    border-radius: 30px;
+    padding: 10px;
+    color: #2532e6;
+    transition: all 0.5s ease-in-out;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    height: 70%;
+}
+
+.col {
+    margin: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 90%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+#intro-1 {
+    margin-bottom: 30px;
+}
+
+#intro-2 {
+    color: #2532e6;
+    font-weight: 600;
+}
+
+h1 {
+    color: white;
+    font-family: "julius sans one", sans-serif;
+}
+
+p {
+    color: rgb(245, 244, 255);
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+.image {
+    background-image: url(page-1.jpg);
+    width: auto;
+    height: 90%;
+    display: inline-block;
+    aspect-ratio: 1 / 1;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
